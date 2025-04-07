@@ -7,7 +7,7 @@ fmt() {
 }
 
 # At most update the display every 30s
-if [ -z "$(find display.png -mtime +0h0m30s)" ]; then
+if [ -z "$(find display.png -not -newermt '30 seconds')" ]; then
 	exit 0
 fi
 

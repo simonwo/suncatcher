@@ -1,0 +1,10 @@
+[Unit]
+Description="Timer to retrieve new data from the solar panels"
+
+[Timer]
+AccuracySec=5
+OnBootSec=15
+OnUnitActiveSec=15
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,8 @@
+[Unit]
+Description=Path of the file where solar data is stored
+
+[Path]
+PathChanged=/home/simon/suncatcher/solar.db
+
+[Install]
+WantedBy=multi-user.target

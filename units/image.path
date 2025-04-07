@@ -1,0 +1,8 @@
+[Unit]
+Description="Path for e-paper display raster image"
+
+[Path]
+PathChanged=/home/simon/suncatcher/display.png
+
+[Install]
+WantedBy=multi-user.target

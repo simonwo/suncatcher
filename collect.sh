@@ -1,6 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 IFS=$'\n\t'
+source .venv/bin/activate
 set -x
 
 SOLAR_IP_ADDRESS=$(cat ip.txt)

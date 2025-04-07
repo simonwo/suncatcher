@@ -1,0 +1,7 @@
+[Unit]
+Description="Collect data from the solar panels"
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/env bash /home/simon/suncatcher/collect.sh
+WorkingDirectory=/home/simon/suncatcher

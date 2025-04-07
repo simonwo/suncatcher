@@ -1,0 +1,7 @@
+[Unit]
+Description="Put the raster image on the display"
+
+[Service]
+Type=oneshot
+ExecStart=/home/simon/suncatcher/.venv/bin/python3 image.py display.png
+WorkingDirectory=/home/simon/suncatcher

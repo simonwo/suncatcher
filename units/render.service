@@ -1,0 +1,7 @@
+[Unit]
+Description=Create a new image file from solar data
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/env bash /home/simon/suncatcher/render.sh
+WorkingDirectory=/home/simon/suncatcher
